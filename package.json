@@ -1,0 +1,14 @@
+{
+  "name": "yung-producer",
+  "version": "1.0.0",
+  "description": "drumpad & piano",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass ./sass/main.scss ./css/style.css -w"
+  },
+  "author": "Kouakou kouamé yannick",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}
