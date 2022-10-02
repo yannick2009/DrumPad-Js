@@ -3,7 +3,7 @@ const screen = document.querySelector(".screen");
 
 drumButton.forEach(async (e) => {
   await e.addEventListener("click", () => {
-    const song = new Audio(`/audio/drum/${e.dataset.nom}.WAV`);
+    const song = new Audio(`../audio/drum/${e.dataset.nom}.WAV`);
     song.play();
     screen.textContent = `${e.dataset.nom}`;
   });
